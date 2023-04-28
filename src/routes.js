@@ -4,6 +4,7 @@ const homeController = require('./controllers/homeControllers');
 
 router.get('/', homeController.getHomePat);
 router.get('/about', homeController.getAboutPage);
-router.get('./create', cubeController.getCreateCube);
+router.get('/create', cubeController.getCreateCube);
+router.post('/create', cubeController.postCreateCube);
 
 module.exports = router;

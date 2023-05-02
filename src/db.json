@@ -1,5 +1,39 @@
 {
   "cubes": [
-    
+    {
+      "id": 1,
+      "name": "Pyranmix",
+      "description": "Test",
+      "imageUrl": "https://i.otto.de/i/otto/1a66b9c5-83b2-4cc2-badb-c446b9e0baf3?h=520&w=551&sm=clamp",
+      "difficultyLevel": "3"
+    },
+    {
+      "id": 2,
+      "name": "Pyranmix",
+      "description": "Test",
+      "imageUrl": "https://i.otto.de/i/otto/1a66b9c5-83b2-4cc2-badb-c446b9e0baf3?h=520&w=551&sm=clamp",
+      "difficultyLevel": "3"
+    },
+    {
+      "id": 3,
+      "name": "Pyranmix",
+      "description": "Test",
+      "imageUrl": "https://i.otto.de/i/otto/1a66b9c5-83b2-4cc2-badb-c446b9e0baf3?h=520&w=551&sm=clamp",
+      "difficultyLevel": "3"
+    },
+    {
+      "id": 4,
+      "name": "Doko Doko",
+      "description": "A doko",
+      "imageUrl": "https://m.media-amazon.com/images/I/610UT0+Y30L._AC_SY300_SX300_.jpg",
+      "difficultyLevel": "6"
+    },
+    {
+      "id": 5,
+      "name": "Plamen",
+      "description": "wqwqwe",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7gGqzeKUvJEVcpUT6VhWdjAjHJRkJE3tKkipcwKZs9DhEdghUhSMD03GE2Hp-_4HUU50&usqp=CAU",
+      "difficultyLevel": "5"
+    }
   ]
 }

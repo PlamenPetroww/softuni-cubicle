@@ -34,6 +34,13 @@
       "description": "wqwqwe",
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7gGqzeKUvJEVcpUT6VhWdjAjHJRkJE3tKkipcwKZs9DhEdghUhSMD03GE2Hp-_4HUU50&usqp=CAU",
       "difficultyLevel": "5"
+    },
+    {
+      "name": "doko 4",
+      "description": "a some cut Cube",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOl_H1JT405GSciSeye483DDTQ8J20FisuBDMuhDlirrQkr9T4Xvyg5iP30QRlZZ1EXFQ&usqp=CAU",
+      "difficultyLevel": "4",
+      "id": 6
     }
   ]
 }

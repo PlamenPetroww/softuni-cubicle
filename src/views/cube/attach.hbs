@@ -11,13 +11,14 @@
                         <option value="{{this._id}}">{{this.name}}</option>
                     {{/each}}
                 </select>
+                <input type="submit" value="Attach">
             {{else}}
                 <h3 class="italic">This cube has all available accessories so far or there is no available at all...
             </h3>
             {{/if}}
-            <input type="submit" value="Attach">
+            
         </form>
 
-        <a class="btn" href="#">Back</a>
+        <a class="btn" href="/cubes/{{cube._id}}/details">Back</a>
     </div>
 </main>

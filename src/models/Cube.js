@@ -16,7 +16,7 @@ const cubeSchema = new mongoose.Schema({
         //Add http/https validation
         validate: {
             validator(value) {
-                return value.StartsWith('http://') ||value.StartsWith('https://');
+                return value.startsWith('http://') || value.startsWith('https://');
             },
             message: 'URL is invalid!'
         }

@@ -5,16 +5,24 @@ const userSchema = new mongoose.Schema({
     username: {
         type: String,
         required: true,
-        minLenght: 3,
+        minLength: [5, 'Username is too short! Minimum allowed length (5)'],
+        unique: true,
+        validate: {
+            validator: function (value) {
+                return /^[a-zA-Z0-9]+$/.test(value);
+            },
+            message: 'Username should consist only of latin letter and digits!'
+        }
     },
     password: {
         type: String,
         required: true,
-        minLength: [6, 'Password is too short!'],
-    }
+        minLength: [8, 'Password is too short!'],
+        validate: /^[a-zA-Z0-9]+$/
+    },
 });
 
-userSchema.pre('save', function(next) {
+userSchema.pre('save', function (next) {
     bcrypt.hash(this.password, 10)
         .then(hash => {
             this.password = hash;
@@ -23,7 +31,7 @@ userSchema.pre('save', function(next) {
         });
 });
 
-userSchema.method('validatePassword', function(password) {
+userSchema.method('validatePassword', function (password) {
     return bcrypt.compare(password, this.password);
 
 });
